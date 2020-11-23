@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Vesper+Libre:wght@700&display=swap');
+body{
+    font-family: 'Vesper Libre', serif;
+    
+}
+
+.btn-toggle{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+body.dark {
+    color: #fff;
+    background: #333;
+}
+
+body.dark .btn-toggle {
+    background: #f1f1f1; 
+    color: #333;
+}
+
+/*image de fond pour nom et prénom*/
+#nom {
+    flex:auto;
+    width: 33,3%;
+    align-items: center;
+    margin-left: 30%;
+}
+/*image de fond pour nom et prénom*/
+
+/*icône de business man*/
+.businessman{
+    width: 15vw;
+    margin-left:15%;
+    margin-top: 5%;
+}/*icône de business man*/
+
+/*fond bleu année 2018 à 2020*/
+#pro{
+    width: 40%;
+    display: flex;
+}/*fond bleu année 2018 à 2020*/
+
+.car{
+    width: 10rem;
+    height: 10rem;
+}
+
+.fivetransport{
+    display: flex;
+}
+
+.covoyages{
+    margin-top:10%;
+    margin-right: 500%;
+    margin-left: 0%;
+    display: block;
+}
+
+/*fond bleu année 2014 à 2019*/
+#années2014-2019{
+    width: 40%;
+}
+/*fond bleu année 2014 à 2019*/
+
+footer{
+    margin-top: 200%;
+    align-items: center;
+    margin-left: 28%;
+}
+
+#diplome{
+    margin-left: 60%;
+    width: 20%;
+    margin-top: 0%;
+    display: block;
+    position: absolute;
+}
+
